@@ -66,4 +66,4 @@ async function scrapeComics() {
     }
 }
 
-scrapeComics().catch((error) => console.error("Ошибка в скрейпинге:", error.message));
+scrapeComics().catch((error) => console.error("error catched:", error.message));
